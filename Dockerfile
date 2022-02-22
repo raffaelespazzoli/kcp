@@ -41,3 +41,4 @@ FROM alpine:3.15
 WORKDIR /
 COPY --from=builder workspace/bin/* /
 USER 65532:65532
+
